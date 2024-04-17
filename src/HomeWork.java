@@ -9,5 +9,6 @@ public class HomeWork {
         System.out.println("Сколько лет вашему другу");
         String age = in.nextLine();
         System.out.printf("Моему другу %s сейчас %s лет ", name, age);
+        in.close(); // Явное закрытие сканера (рекомендации ментора)
     }
 }
